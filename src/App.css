@@ -1,0 +1,85 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+  height: inherit;
+  padding: 10px;
+}
+
+.registration{
+  width: 100%;
+  padding-left: 16%;
+}
+
+.form {
+      width: 80%;
+      padding: 0px 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px #ccc; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.block {
+  width: 100%;
+}
+
+.text-input, .select {
+  font: inherit;
+  line-height: inherit;
+line-height: normal;
+width: 100%;
+box-sizing: border-box;
+position: relative;
+}
+
+
+.label {
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  line-height: 1.25;
+  position: relative;
+}
+
+.options {
+  list-style-type: none;
+  font-size: large;
+}
+
+input[type='radio'] {
+  width: 15px;
+  height: 15px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+  background-color: #095484;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+  
+.button:hover {
+  background-color: #0666a3;
+}
+
+.blank {
+  color: black;
+  width: 80%;
+  font-size: x-large;
+  box-shadow: 0 2px 5px #ccc; 
+  padding: 2%;
+}
